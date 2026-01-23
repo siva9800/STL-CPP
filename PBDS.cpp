@@ -22,7 +22,8 @@ using ordered_set = tree<
 template <class T>
 using ordered_multiset = tree<pair<T, int>,null_type,less<pair<T, int>>,rb_tree_tag,tree_order_statistics_node_update>;
 
-
+template <class T>
+using ordered_multiset = tree<T, null_type, less_equal<T>, rb_tree_tag, tree_order_statistics_node_update>;
 
 int main(){
     ordered_multiset mt;
