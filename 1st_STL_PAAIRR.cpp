@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    //pair dicleration
+    //pair dicleration afeew
     pair<int,char>p={1,'h'};
     cout<<p.first<<" "<<p.second<<endl;
 
@@ -20,3 +20,4 @@ int main()
     cout<<pa.second;
     return 0;
 }
+
